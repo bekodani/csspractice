@@ -1,0 +1,41 @@
+/*------------------------------------*\
+  #ELRENDEZÉS
+\*------------------------------------*/
+
+.layout_item--full-width		{ width: 100%; }
+
+.layout_item--85-percent		{ width: 85%; }
+
+.layout_item--65-percent		{ width: 65%; }
+
+
+.layout_item-content-w-sticked-footer { min-height: calc(100vh - 120px); }
+
+
+.layout_item--centered-horizontally {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gutter--horizontal   { margin-bottom: 2.857rem; }
+
+/*------------------------------------*\
+  #HELPEREK
+\*------------------------------------*/
+
+.clearfix:after {
+  content:  "";
+  display:  table;
+  clear:    both;
+}
+
+/*------------------------------------*\
+  #CONTAINEREK
+\*------------------------------------*/
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 75px auto 150px;
+	height: 100vh;
+}

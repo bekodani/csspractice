@@ -1,0 +1,111 @@
+.header {
+	background-color: hsl(229, 46%, 11%);
+}
+
+.logo {
+	float: left;
+	height: 65px;
+}
+
+/*------------------------------------*\
+  #NAVIGÁCIÓ
+\*------------------------------------*/
+
+.topnav {
+	overflow: hidden;
+
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding-top: 35px;
+	margin-right: 12px;
+	margin-left: 18px;
+	font-size: 1.2857142857142858rem;
+	padding-bottom: 8px; 
+    border-bottom:  4px solid; 
+    border-color:   transparent;
+}
+
+.topnav a:hover {
+	transform: scale(1.1);
+}
+
+.topnav a.active {
+	border-color: orange;
+}
+
+.topnav a.active:hover {
+	transform: scale(1);
+}
+
+.topnav input[type=text] {
+	float: right;
+	padding: 15px;
+	border: 1px solid white;
+	background-color: transparent;
+	margin-top: 12.5px;
+}
+
+/*------------------------------------*\
+  #FŐOLDAL
+\*------------------------------------*/
+
+.item-a {
+	background-color: orange;
+	height: 75vh;
+}
+.item-b {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: repeat(2, minmax(70px, auto));
+  grid-gap: 5px;
+  text-align: center;
+  justify-content: center;    
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+
+.poster-img {
+	width: 65%;
+}
+
+.nested:hover {
+	transform: scale(1.05);
+	filter: grayscale(100%);
+}
+
+.nested .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  color: green;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  margin-right: 150px;
+}
+
+.nested:hover .tooltiptext {
+  visibility: visible;
+}
+
+.item-c {
+	height: 250px;
+	background-color: green;
+}
+
+/*------------------------------------*\
+  #FOOTER
+\*------------------------------------*/
+
+.footer {
+	background-color: hsl(229, 46%, 11%);
+}

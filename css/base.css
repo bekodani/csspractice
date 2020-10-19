@@ -1,0 +1,35 @@
+/*------------------------------------*\
+  #BEÁLLÍTÁSOK
+\*------------------------------------*/
+
+* { box-sizing: border-box; }
+
+html { font-size: 14px; }
+
+h2, h6,
+p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	cursor: 		 pointer;
+}
+
+
+/*------------------------------------*\
+  #TIPOGRÁFIA
+\*------------------------------------*/
+
+p {
+	color: white;
+}
+
+body {
+		font-family: 'Noto Sans JP', sans-serif;
+}
+
+h2 {
+	font-size: 1.5714285714285714rem;
+	color: white;
+}
